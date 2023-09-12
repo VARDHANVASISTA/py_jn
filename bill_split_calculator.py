@@ -8,4 +8,5 @@ np = int(peo)
 tip = pt / 100 * tb
 tb += tip
 split = tb / np
-print(f"Each person should pay Rs. {split}")
+sp = round(split , 2)
+print(f"Each person should pay Rs. {sp}")
