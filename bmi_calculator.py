@@ -1,6 +1,8 @@
 print("Welcome to BMI Calculator!!!")
 height = input("Enter your height in metres: ")
 weight = input("Enter your weight in kg: ")
-bmi = float(weight)/float(height)**2
-b1 = int(bmi)
-print("Your BMI is: " + bmi + "\n approx.: " + b1)
+b = float(weight)/float(height)**2
+b1 = int(b)
+bs = str(b)
+b1s = str(b1)
+print("Your BMI is: " + bs + "\n approx. BMI: " + b1s)
