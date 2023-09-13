@@ -28,8 +28,8 @@ v = v1 + v2
 right = l+o+v+E
 score = left * 10 + right
 if score<10 or score>90:
-    print(f"Your score is {score}\n!!PERFECT MATCH!!")
+    print(f"Your score is {score}\n!!CRAZY MATCH!!")
 elif score>40 and score<50:
-    print(f"Your score is {score}\n!!GOOD MATCH!!")  
+    print(f"Your score is {score}\n!!GREAT MATCH!!")  
 else:
     print(f"Your score is {score}")
