@@ -30,6 +30,6 @@ score = left * 10 + right
 if score<10 or score>90:
     print(f"Your score is {score}\n!!CRAZY MATCH!!")
 elif score>40 and score<50:
-    print(f"Your score is {score}\n!!GREAT MATCH!!")  
+    print(f"Your score is {score}\n!!GOOD MATCH!!")  
 else:
     print(f"Your score is {score}")
