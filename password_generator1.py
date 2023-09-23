@@ -15,6 +15,8 @@ for n in range(0,ns):
   pt.append(random.choice(symbols))
 for n in range(0,nn):
   pt.append(random.choice(numbers))
+  
+#for the below version of shuffling the list there is a function called shuffle() the code using it is at the last>>
 sp = []
 for n in range(0,len(pt)):
   t=(random.choice(pt))
@@ -27,4 +29,10 @@ for n in range(0,len(pt)):
       pt.remove(t)
 print("Your Strong-Password is >>")
 for i in sp:
+  print(i,end='')
+
+#shuffling list using shuffle() function >>easier version
+random.shuffle(pt)
+print("Your Strong-Password is >>")
+for i in pt:
   print(i,end='')
