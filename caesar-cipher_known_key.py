@@ -1,7 +1,7 @@
 def encryption():
     encm = ""
     msg = input("Enter the original message:\n")
-    shift = int(input("Enter the shift number:\n"))
+    shift = int(input("Enter the key:\n"))
     for i in range(len(msg)):
         pc = msg[i]
         pos = 0
@@ -32,7 +32,7 @@ def encryption():
 def decryption():
     orm = ""
     msg = input("Enter the encrypted message:\n")
-    shift = int(input("Enter the shift number:\n"))
+    shift = int(input("Enter the key:\n"))
     for i in range(len(msg)):
         pc = msg[i]
         pos = 0
