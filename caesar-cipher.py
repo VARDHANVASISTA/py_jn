@@ -1,3 +1,4 @@
+#Yet to complete sequential encryption:
 def encryption():
     encm = ""
     msg = input("Enter the original message:\n")
